@@ -8,6 +8,8 @@
 
 # For what years does the API have statistical data?
 
+response <- GET("http://data.unhcr.org/wiki/index.php/API_Documentation.html")
+body <- content(response, "text")
 
 # What is the "country code" for the "Syrian Arab Republic"?
 
